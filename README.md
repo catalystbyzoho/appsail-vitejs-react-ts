@@ -23,7 +23,7 @@ You can find detailed instructions on how to host a Sample Vite.Js application i
 
 - To access your Catalyst project in your local machine you need to install our Catalyst CLI by using the below command in your terminal.
 
-> **sudo npm install -g zcatalyst-cli@beta**
+> **sudo npm install -g zcatalyst-cli**
 
 - The above command will install Catalyst CLI in your local machine which you can confirm by using the command **catalyst** which will list all the available commands in your terminal.
 
