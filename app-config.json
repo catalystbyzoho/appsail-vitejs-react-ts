@@ -7,7 +7,7 @@
 	"scripts": {
 		"preserve":"cd client && npm run build && cd .. && cp -r server build",
 		"postserve": "rm -r build/*",
-        "predeploy":"cd client && npm run build:Production && cd .. && cp -r server build",
+        "predeploy":"cd client && npm run build && cd .. && cp -r server build",
 		"postdeploy": "rm -r build/*"
 	}
 }

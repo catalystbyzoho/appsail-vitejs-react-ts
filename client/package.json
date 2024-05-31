@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build --mode development --outDir ../build/client",
-    "build:Production": "tsc && vite build --mode production --outDir ../build/client",
+    "build": "tsc && vite build --outDir ../build/client",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },

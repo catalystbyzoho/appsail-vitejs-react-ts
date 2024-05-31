@@ -1,9 +1,8 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react-swc';
 
-const getConfigurations = ({ mode }) => {
+const getConfigurations = () => {
 	return defineConfig({
-		base: mode === 'development' ? 'appsail/AppSail/' : '',
 		plugins: [react()]
 	});
 };
